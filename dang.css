@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+}
+.text{
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+    animation-delay: 1s;
+}
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+header,main,footer{
+    padding: 40px;
+}
+.background{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: rgb(39, 34, 34);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    animation: expand 3s ease-out forwards, fillColor 0.5s ease-out forwards;
+    z-index: 0;
+}
+@keyframes expand {
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 3000px;
+        height: 3000px;
+    }
+}
+@keyframes fillColor {
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: rgb(39, 34, 34);
+    }
+}
+.headerh1{
+    text-align: center;
+    color: brown;
+}
+.imgf{
+    height: 20px;
+    width: 20px;
+}
+.f{
+    font-size: 20px;
+    color: brown;
+}
+.container{
+    border: 2px solid rgb(124, 84, 84);
+    border-radius: 15px;
+}
+.container-1{
+    border: 2px solid rgb(124, 84, 84);
+    border-radius: 15px;
+    height: 60px;
+}
+.d{
+    font-size: 20px;
+    color: brown;
+   margin-bottom: 100px;
+}
+.imgd{
+    height: 20px;
+    width: 20px;
+   
+}
+.imgc{
+    height: 20px;
+    width: 20px;
+}
+.c{
+    font-size: 20px;
+    color: brown;
+}
+.container-2{
+    border: 2px solid rgb(124, 84, 84);
+    border-radius: 15px;
+}
+.imgb{
+    height: 20px;
+    width: 20px;
+}
+.b{
+    font-size: 20px;
+    color: brown;
+}
+.container-3{
+    border: 2px solid rgb(124, 84, 84);
+    border-radius: 15px;
+}
+.imga{
+    height: 20px;
+    width: 20px;
+}
+.a{
+    font-size: 20px;
+    color: brown;
+}
+.container-4{
+    border: 2px solid rgb(124, 84, 84);
+    border-radius: 15px;
+}
+.imgs{
+    height: 20px;
+    width: 20px;
+}
+.s{
+    font-size: 20px;
+    color: brown;
+}
+.container-5{
+    border: 2px solid rgb(124, 84, 84);
+    border-radius: 15px;
+}
+.sword{
+    height: 50px;
+    width: 50px;
+}
+.fakel{
+ height: 50px;
+ width: 50px;
+}
+.F-class{
+    text-decoration: none;
+}
+.D-class{
+    text-decoration: none;
+}
+.C-class{
+    text-decoration: none;
+}
+.B-class{
+    text-decoration: none;
+}
+.A-class{
+    text-decoration: none;
+}
+.S-class{
+    text-decoration: none;
+}
