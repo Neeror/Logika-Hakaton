@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+}
+.vmist{
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+    animation-delay: 1s;
+}
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+header,main,footer{
+    padding: 40px;
+}
+.headerh1{
+    text-align: center;
+    color: azure;
+}
+.transition-circle{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: rgb(39, 34, 34);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    animation: expand 3ms ease-out forwards, fillColor 0.5s ease-out forwards;
+    z-index: 0;
+}
+@keyframes expand {
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 3000px;
+        height: 3000px;
+    }
+}
+@keyframes fillColor {
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: rgb(39, 34, 34);
+    }
+}
+.fakel{
+    height: 50px;
+    width: 50px;
+}
+.container{
+ display: flex;
+ margin:20px
+}
+.container-1{
+    border: 2px solid rgb(54, 48, 48);
+    border-radius: 15px;
+}
+.dang{
+   color:brown;
+    margin-left: 50px;
+}
+.container-2{
+    border: 2px solid rgb(54, 48, 48);
+    border-radius: 15px;
+    margin-left: 400px;
+}
+.dragon{
+    color:brown;
+}
+.container-3{
+    border: 2px solid rgb(54, 48, 48);
+    border-radius: 15px;
+    margin-left: 400px;
+}
+.fantasy{
+    color:brown;
+    margin-left: 70px;
+}
+.danga{
+    text-decoration: none;
+    color:brown;
+}
+.dragona{
+    text-decoration: none;
+    color:brown;
+}
+.mandru{
+    text-decoration: none;
+    color:brown;
+}
